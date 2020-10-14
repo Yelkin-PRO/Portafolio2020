@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+#menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:24px;
+}
+
+#menu #item{
+	float:left;
+	font-size:24px;
+	list-style:none;
+}
+
+#menu #item a{
+	padding:12px 26px;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+#menu #desple{
+	display:none;
+}
+#item a:hover{
+	background:#0CF;
+	color:#F90;
+}
+#menu #item:hover #desple{
+	display:block;
+	
+	
+
